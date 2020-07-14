@@ -22,6 +22,7 @@ private slots:
 
 private:
     Ui::DateSelectionDialog *ui;
+    void setButtonText(const QDate& date);
 };
 
 #endif // DATESELECTIONDIALOG_H
